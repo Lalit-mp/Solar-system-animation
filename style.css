@@ -1,0 +1,249 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.main-bg {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.solor-system {
+  position: relative;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  /* transition: 0.2sec; */
+}
+
+.sun {
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 196, 0, 0.927);
+  box-shadow: 0 0 10px rgb(255, 169, 8), 0 0 30px rgb(255, 182, 47),
+    0 0 50px rgb(255, 214, 138);
+  border-radius: 50%;
+  outline: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.outer-ring-1 {
+  position: absolute;
+  /*top: 50%;
+  left: 50%; */
+  height: 150px;
+  width: 150px;
+  border: 2px solid rgb(209, 209, 209);
+  border-radius: 50%;
+  /* transform:scaleX(30px); */
+  /* transform: translate(-50%, -50%); */
+  animation: orbit-1 12s ease infinite;
+  animation-delay: 0.1s;
+}
+
+.planet-1 {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  height: 30px;
+  width: 30px;
+  background-color: rgb(128, 68, 0);
+  border-radius: 50%;
+  /* animation: orbit 5s ease-in-out infinite ; */
+}
+.outer-ring-2 {
+  position: absolute;
+  /*top: 50%;
+  left: 50%; */
+  height: 210px;
+  width: 210px;
+  border: 2px solid rgb(209, 209, 209);
+  border-radius: 50%;
+  /* transform: translate(-50%, -50%); */
+  animation: orbit-2 15s ease infinite;
+  animation-delay: 0.1s;
+}
+
+.planet-2 {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  height: 30px;
+  width: 30px;
+  background-color: rgb(237, 192, 45);
+  border-radius: 50%;
+  /* animation: orbit 5s ease-in-out infinite ; */
+}
+.outer-ring-3 {
+  position: absolute;
+  /*top: 50%;
+  left: 50%; */
+  height: 290px;
+  width: 290px;
+  border: 2px solid rgb(209, 209, 209);
+  border-radius: 50%;
+  /* transform: translate(-50%, -50%); */
+  animation: orbit 10s ease infinite;
+  animation-delay: 0.1s;
+}
+
+.planet-3 {
+  position: absolute;
+  bottom: 45px;
+  left: 15px;
+  height: 30px;
+  width: 30px;
+  background-color: rgb(50, 223, 165);
+  border-radius: 50%;
+  /* animation: orbit 5s ease-in-out infinite ; */
+}
+.outer-ring-4 {
+  position: absolute;
+  /*top: 50%;
+  left: 50%; */
+  height: 350px;
+  width: 350px;
+  border: 2px solid rgb(209, 209, 209);
+  border-radius: 50%;
+  /* transform: translate(-50%, -50%); */
+  animation: orbit-1 12s ease infinite;
+  animation-delay: 0.1s;
+}
+
+.planet-4 {
+  position: absolute;
+  bottom: 60px;
+    right: 15px;
+  height: 30px;
+  width: 30px;
+  background-color: rgb(77, 28, 9);
+  border-radius: 50%;
+  /* animation: orbit 5s ease-in-out infinite ; */
+}
+.outer-ring-5 {
+  position: absolute;
+  /*top: 50%;
+  left: 50%; */
+  height: 400px;
+  width: 400px;
+  border: 2px solid rgb(209, 209, 209);
+  border-radius: 50%;
+  /* transform: translate(-50%, -50%); */
+  animation: orbit 10s ease infinite;
+  animation-delay: 0.1s;
+}
+
+.planet-5 {
+  position: absolute;
+  top: 77px;
+    left: 15px;
+  height: 30px;
+  width: 30px;
+  background-color: rgb(237, 198, 126);
+  border-radius: 50%;
+  /* animation: orbit 5s ease-in-out infinite ; */
+}
+.outer-ring-6 {
+  position: absolute;
+  /*top: 50%;
+  left: 50%; */
+  height: 480px;
+  width: 480px;
+  border: 2px solid rgb(209, 209, 209);
+  border-radius: 50%;
+  /* transform: translate(-50%, -50%); */
+  animation: orbit-2 15s ease infinite;
+  animation-delay: 0.1s;
+}
+
+.planet-6 {
+  position: absolute;
+  bottom: 110px;
+  right: 15px;
+  height: 30px;
+  width: 30px;
+  background-color: rgb(215, 157, 119);
+  border-radius: 50%;
+  /* animation: orbit-1 5s ease-in-out infinite ; */
+}
+.outer-ring-7 {
+  position: absolute;
+  /*top: 50%;
+  left: 50%; */
+  height: 560px;
+  width: 560px;
+  border: 2px solid rgb(209, 209, 209);
+  border-radius: 50%;
+  /* transform: translate(-50%, -50%); */
+  animation: orbit-1 12s ease infinite;
+  animation-delay: 0.1s;
+}
+
+.planet-7 {
+  position: absolute;
+  top: 130px;
+  right: 15px;
+  height: 30px;
+  width: 30px;
+  background-color: rgb(117, 191, 208);
+  border-radius: 50%;
+  /* animation: orbit 5s ease-in-out infinite ; */
+}
+.outer-ring-8 {
+  position: absolute;
+  /*top: 50%;
+  left: 50%; */
+  height: 620px;
+  width: 620px;
+  border: 2px solid rgb(209, 209, 209);
+  border-radius: 50%;
+  /* transform: translate(-50%, -50%); */
+  animation: orbit-2 15s ease infinite;
+  animation-delay: 0.1s;
+}
+
+.planet-8 {
+  position: absolute;
+  bottom: 160px;
+  left: 15px;
+  height: 30px;
+  width: 30px;
+  background-color: rgb(63, 73, 207);
+  border-radius: 50%;
+  /* animation: orbit 5s ease-in-out infinite ; */
+}
+
+@keyframes orbit {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes orbit-1 {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes orbit-2 {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
